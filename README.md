@@ -1,23 +1,35 @@
-# Hi, I'm David 👋
+<div align="center">
 
-I build **local-first AI systems that run on their own hardware** — sun-fed edge
-nodes that sense the physical world, learn alongside their human, and never sign
-value autonomously. My north star is *digital sovereignty*: your machine, your
-models, your data, your signature.
+<img src="https://raw.githubusercontent.com/piskyRpapalo/aurelius/main/assets/aurelius-talks.png" width="520"
+     alt="Pixel-art sprite sheet, four frames on one strip: a white marble bust of a bearded classical figure with one lit amber eye, the marble cracked open to show dark machinery underneath. The mouth is barely open in the first frame, wide in the second, rounded in the third, and closed in a slight smile in the fourth.">
 
-## ⚙️ Core Stack
+# Hi, I'm David
+
+**I build local-first AI systems that run on their own hardware.**
+
+Sun-fed edge nodes that sense the physical world, learn alongside their human,
+and never sign value autonomously. My north star is *digital sovereignty*: your
+machine, your models, your data, your signature.
+
+</div>
+
+---
+
+## Core stack
 
 `Python` · `TypeScript / React (Vite)` · `Playwright` · `FastAPI` · `systemd` ·
 `Redis` · `SQLite / TimescaleDB` · `Bash`
 
-## 🧠 AI & Edge Infrastructure
+## AI and edge infrastructure
 
-- **Local inference:** `Qwen` (instruct variants) served with `Ollama` — no cloud calls.
-- **Edge compute:** `Beelink` (Ryzen + Radeon iGPU) · `Orange Pi` · `Raspberry Pi`.
-- **Sensing:** `RTL-SDR` software-defined radio (ADS-B & AIS) · `ESP32` environmental telemetry.
-- **Verification:** `Playwright` end-to-end suites gate every UI change before it ships.
+| | |
+|---|---|
+| **Local inference** | `Qwen` (instruct variants) served with `Ollama` — no cloud calls. |
+| **Edge compute** | `Beelink` (Ryzen + Radeon iGPU) · `Orange Pi` · `Raspberry Pi`. |
+| **Sensing** | `RTL-SDR` software-defined radio (ADS-B & AIS) · `ESP32` environmental telemetry. |
+| **Verification** | `Playwright` end-to-end suites gate every UI change before it ships. |
 
-## 🛡️ Safe Prompt Doctrine
+## Safe Prompt Doctrine
 
 Working with local LLMs on real hardware, a few non-negotiables shape everything I ship:
 
@@ -28,7 +40,7 @@ Working with local LLMs on real hardware, a few non-negotiables shape everything
 - **Deterministic output validation** — structured outputs are schema-checked and
   every operation reports a deterministic exit code; a failure is loud, never silent.
 
-## 🏗️ Architecture & Philosophy
+## Architecture and philosophy
 
 Each principle maps to something actually running:
 
@@ -37,7 +49,7 @@ Each principle maps to something actually running:
 - **Honest sensors** → a feed with no data shows `NO DATA` with cause and last-seen — never a fabricated number.
 - **Evolve under law** → operational configs self-edit only with telemetry + rollback; doctrine is human-signed.
 
-## 🚀 Current Focus
+## Current focus
 
 - Optimizing **local inference on edge hardware** (context sizing, model orchestration by cost).
 - **Real-time RF data ingestion** (ADS-B / AIS) on distributed edge nodes, rendered on a live map.
@@ -45,6 +57,8 @@ Each principle maps to something actually running:
 
 <details>
 <summary>How the pieces fit (deeper)</summary>
+
+<br>
 
 - A local API gateway (FastAPI) fans data from radio, environmental and chain-read
   sources into a single dashboard; slow or missing feeds degrade independently and
@@ -57,8 +71,29 @@ Each principle maps to something actually running:
 
 </details>
 
----
+## Featured work
 
-*Featured: [Hexelion / P0X](https://github.com/piskyRpapalo/-hexelion-public) — the
-sovereign micro-state · [Aurelius](https://github.com/piskyRpapalo/aurelius) — the
-learning companion that teaches technical sovereignty.*
+### [Aurelius](https://github.com/piskyRpapalo/aurelius) — the learning companion that teaches technical sovereignty
+
+<img src="https://img.shields.io/badge/Python-3.10%2B-2F6B4F?style=flat" alt="Python 3.10 or newer">
+<img src="https://img.shields.io/badge/dependencies-standard%20library%20only-A9762B?style=flat" alt="Dependencies: standard library only">
+<img src="https://img.shields.io/badge/code-MIT-57534E?style=flat" alt="Code licence: MIT">
+<img src="https://img.shields.io/badge/prose-CC%20BY--SA%204.0-57534E?style=flat" alt="Prose licence: CC BY-SA 4.0">
+
+A memory that starts empty and says so. Bilingual, offline, and stored in one
+file you can carry. It is the doctrine above, made small enough to run on a
+laptop and read end to end.
+
+### Hexelion / P0X — the sovereign micro-state
+
+The rack itself: sensors, attestation, and the dashboard that reads them. The
+repository is **private**, so there is no link here to open — a link that
+returns 404 for everyone who clicks it is exactly the dishonest sensor the
+doctrine above rules out.
+
+## Contact
+
+**[Open an issue on Aurelius](https://github.com/piskyRpapalo/aurelius/issues)** —
+that is the working channel today, and the one that gets an answer.
+
+A direct channel to the author's own hardware is planned. It is not live.
