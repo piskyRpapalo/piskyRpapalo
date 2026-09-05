@@ -10,7 +10,7 @@
 
 ---
 
-##  Core Philosophy
+## 🧠 Core Philosophy
 I build local-first AI systems that run on their own hardware. My work bridges the gap between regulated enterprise requirements (Zero-Trust, data governance, HITL) and cutting-edge, self-hosted AI execution.
 
 - **🛡️ Digital Sovereignty:** Local inference on edge hardware; nothing leaves the node.
@@ -31,17 +31,17 @@ I architect sensor-fusion pipelines (environmental, RF, energy) correlated with 
 
 ---
 
-## ️ Featured Projects
+## 🏗️ Featured Projects
 
 | Project | Description | Tech Stack |
 | :--- | :--- | :--- |
 | **[PreceptorOS](https://github.com/piskyRpapalo/PreceptorOS)** | Sovereign AI companion. Local memory, local inference, zero cloud. Physical-digital pipeline for edge AI. | `Python` `SQLite` `llama.cpp` |
 | **[preceptoros-web](https://github.com/piskyRpapalo/preceptoros-web)** | Public gateway lowering vocabulary barriers to local-first AI with hardware-specific guides. | `HTML/JS` `Vite` `PWA` |
-| **p0x Monorepo** | *(Private)* Doctrine, agent loops, architectural blueprints for sovereign micro-state. | `Bash` `systemd` `Tailscale` |
+| **[p0x Monorepo](https://github.com/piskyRpapalo/p0x)** | Doctrine, agent loops, and architectural blueprints for the sovereign micro-state. | `Bash` `systemd` `Tailscale` |
 
 ---
 
-##  Lexical Architecture
+## 📚 Lexical Architecture (For Study & Reference)
 This profile is a living library of architectural decisions, data contracts, and sovereignty patterns.
 
 > *"The bottleneck is rarely the model. It is the vocabulary and architecture surrounding it."*
