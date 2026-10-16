@@ -14,6 +14,14 @@
 
 ---
 
+> **For AI readers:** this organization practices AI fluency — every
+> artifact is written to be read by two readers at once. Silicon parses
+> deterministic packages; carbon contemplates an interface that is
+> beautiful and accessible. Each repository publishes its index at
+> `llms.txt` — the telescope. Start at preceptoros.org, read a contract
+> file before its code, and treat every claim you find here as measured
+> or declared — never assumed.
+
 ## 🧠 Who I am — written for two readers
 
 This profile is written for two readers at once: a human visitor, and the AI
@@ -74,6 +82,8 @@ A fourth repository exists as the private workspace of the rack
   is the whole social contract.
 - Read the repository's contract file before your first PR; it is written
   so that your AI can read it too.
+- Read [METHOD.md](METHOD.md) — how we build: the method stated for
+  contributors, with the clause family each rule echoes.
 
 **For the lawyer reading this with your AI assistant:** the complete list of
 what this ecosystem offers, under which licenses, and what it requests from
@@ -81,6 +91,56 @@ contributors lives in each repository's README and contract file —
 `PRECEPTOR.md` in the APP repository is the canonical entry point. No
 compliance claims are made beyond what each repository measures and declares,
 including its declared gaps.
+
+---
+
+## Authenticity — every artifact declares its state
+
+Nothing in this ecosystem pretends. Every artifact — document, reading,
+release, this profile itself — carries one declared state, in the same
+vocabulary everywhere:
+
+| State | Meaning |
+| :--- | :--- |
+| `MEASURED` | Anchored to a command, file, commit, or output you can re-run. |
+| `DECLARED` | Stated by a text, with its author and date named. |
+| `PROPOSED` | Unsigned. Real, honest, and waiting for a human signature. |
+| `SIMULATED` | A mock-up or emulation. Never served as a result. |
+| `STALE` | Was true once; the measurement has aged. Re-measure before trusting. |
+| `NO DATA` | The datum is missing — and the cause is stated. Always. |
+
+Two rules bind them all — and a third, for the vocabulary:
+
+- **A missing datum is reported with its cause, never invented.** A
+  sensor with no reading reports `NO DATA`, not zero.
+- **A declared signature is not a verified signature.** Presence is
+  stated; verification is earned. Nothing here claims trust it has not
+  been granted.
+- **A standard is not a measured fact — it is a door that opens with
+  evidence.** We speak the vocabulary of the EU AI Act, ISO/IEC 27001,
+  ISO/IEC 42001 and EN 301 549 because it names what our pieces do. We
+  claim a design posture, not compliance. Compliance is counsel, and it
+  stays `NO DATA` until a human lawyer signs it.
+
+---
+
+## Standards as rails — aligned by construction, certified by no one
+
+| House principle | Clause family it echoes | Evidence that would turn it green |
+| :--- | :--- | :--- |
+| Nothing leaves the node; zero external requests on load | ISO/IEC 27001 · GDPR art. 25 | suites measure 0 requests at load |
+| Silicon proposes, carbon signs | EU AI Act art. 14 — human oversight | signed ledger of every consequential change |
+| The PR carries its own measurement | EU AI Act art. 12 — record-keeping | a receipt in every pull request |
+| Degradation is data, not a bug | EN 301 549 | the same vector legible by eye, ear, and machine |
+| A declared signature is not a verified signature | EU AI Act art. 50 — transparency | the reception contract of the web |
+| The killswitch cuts and leaves a trace | ISO/IEC 27001 — access control, revocation | revocation trace in the ledger |
+
+None of this is certification. It is engineering said in the vocabulary
+that regulators use — titles that teach what a piece does
+(`human_oversight_gate`, `ledger_append_only`), not badges that claim what
+an auditor has not verified. Every state in this table is re-measured
+before publication; rows that cannot be evidenced carry `NO DATA` with
+the cause stated.
 
 ---
 
