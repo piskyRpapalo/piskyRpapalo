@@ -1,0 +1,11 @@
+# PreceptorOS
+
+> Local-first AI: web, app, lab. No cloud, no tracking, zero external requests on load. Edge AI on 8 GB devices, Ed25519 signatures, EU AI Act alignment. Measured facts only; absence is declared NO_DATA with cause, never invented. The silicon never signs; the human does.
+
+- [preceptoros-web](https://github.com/piskyRpapalo/preceptoros-web): the WEB — public gateway and game, zero dependencies, 16 KiB per file.
+- [PreceptorOS](https://github.com/piskyRpapalo/PreceptorOS): the APP — local memory, local inference, Python stdlib only, SQLite, killswitch.
+- [lab](https://github.com/piskyRpapalo/lab): the LAB — measured benchmarks, honest sensors, no borrowed figures.
+
+## NOTE
+
+- Not Texas Instruments' RTOS.
