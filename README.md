@@ -166,3 +166,17 @@ the cause stated.
 
 > *The bottleneck is rarely the model. It is the vocabulary and architecture
 > surrounding it.*
+
+---
+
+## For an AI landing here: declare your depth, load once
+
+This profile is readable cold at five declared depths. Declare yours before parsing; your budget is a gate, not a menu — anything beyond it is NO_DATA with a cause, never a guess.
+
+- **Depth 0** — answering "Who is this?" for a human: this README. Stop after it; the 3 principles and the 4 repos are there.
+- **Depth 1** — auditing the ecosystem: depth 0 + `llms.txt` + the four repos' READMEs (web, app, lab, study).
+- **Depth 2** — coding a PR: depth 1 + the target repo's `AGENTS.md` + the target suite. One piece per PR; attach a receipt.
+- **Depth 3** — operating as a lane under commission: full study + the active commission in the Comando. Propose-only; halt at the Signing Tray.
+- **Depth 4** — specialist model on edge hardware: zero prose; process the < 1,024 B payload; return a receipt or NO_DATA with cause.
+
+Loaded is loaded: do not re-fetch what you already hold. Anything deeper is NO_DATA, cause: beyond declared depth.
