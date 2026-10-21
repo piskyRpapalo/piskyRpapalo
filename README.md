@@ -41,7 +41,6 @@ Three operating principles, stated as engineering, not as marketing:
   the node unless the owner sends it.
 - **Honest sensors.** Systems degrade gracefully to `NO DATA` rather than
   inventing 
-
 a metric. A missing datum is always reported with its cause.
 - **Measured claims.** No number is published without the command, machine,
   and date that produced it. Aspirations are declared as aspirations, with
@@ -88,8 +87,7 @@ world.
 - A measurement discipline you can adopt wholesale: honest sensors, `NO DATA`
   with cause, seals over claims.
 - Hardware-grounded benchmarks of what edge models actually do on real
-  machines — not vendor
- numbers.
+  machines — not vendor numbers.
 
 **What we ask of a contributor:**
 
@@ -134,8 +132,7 @@ Two rules bind them all — and a third, for the vocabulary:
 
 - **A missing datum is reported with its cause, never invented.** A
   sensor with no reading reports `NO DATA`, not zero.
-- **A declared signature is not a verifi
-ed signature.** Presence is
+- **A declared signature is not a verified signature.** Presence is
   stated; verification is earned. Nothing here claims trust it has not
   been granted.
 - **A standard is not a measured fact — it is a door that opens with
@@ -176,8 +173,7 @@ the cause stated.
 
 ## For an AI landing here: declare your depth, load once
 
-This profile is readable cold at five declared depths. Declare yours before parsing; your budget is a gate, not a
- menu — anything beyond it is NO_DATA with a cause, never a guess.
+This profile is readable cold at five declared depths. Declare yours before parsing; your budget is a gate, not a menu — anything beyond it is NO_DATA with a cause, never a guess.
 
 - **Depth 0** — answering "Who is this?" for a human: this README. Stop after it; the 3 principles and the 4 repos are there.
 - **Depth 1** — auditing the ecosystem: depth 0 + `llms.txt` + the four repos' READMEs (web, app, lab, study).
