@@ -41,6 +41,7 @@ Three operating principles, stated as engineering, not as marketing:
   the node unless the owner sends it.
 - **Honest sensors.** Systems degrade gracefully to `NO DATA` rather than
   inventing 
+
 a metric. A missing datum is always reported with its cause.
 - **Measured claims.** No number is published without the command, machine,
   and date that produced it. Aspirations are declared as aspirations, with
@@ -48,16 +49,18 @@ a metric. A missing datum is always reported with its cause.
 
 ---
 
-## 🗺️ The map — three repositories
+## 🗺️ The map — four repositories
 
 | Part | Repository | What it is |
 | :--- | :--- | :--- |
 | **WEB** | [preceptoros-web](https://github.com/piskyRpapalo/preceptoros-web) | The public gateway and the game. A guide that installs local AI step by step, in nine languages, zero third-party requests on load. |
 | **APP** | [PreceptorOS](https://github.com/piskyRpapalo/PreceptorOS) | The doctrine and the laboratory. Contracts, seals, measurement tools, and the companion application: local memory, local inference, no cloud. |
-| **LAB** | [lab](https://github.com/piskyRpapalo/lab) | The measured record. Benchmarks of the hardware and models this ecosystem runs on — honest sensors, no borrowed figures. |
+| **LAB** | [lab](https://github.com/piskyRpapalo/lab) | The measured record. 26 benchmark sessions of the hardware and models this ecosystem runs on — honest sensors, no borrowed figures. |
+| **STUDY** | [study](https://github.com/piskyRpapalo/study) | The public doctrine and corpus. Governance, legislation, measurement law — readable cold by a human, teachable to any AI. |
 
-A fourth repository exists as the private workspace of the rack
-(laboratory, not product) and is not part of the public surface.
+The canonical census of every repository, public and private, lives in
+[`study/11-repos.md`](https://github.com/piskyRpapalo/study/blob/main/11-repos.md);
+drift against it is RED.
 
 ---
 
@@ -85,7 +88,8 @@ world.
 - A measurement discipline you can adopt wholesale: honest sensors, `NO DATA`
   with cause, seals over claims.
 - Hardware-grounded benchmarks of what edge models actually do on real
-  machines — not vendor numbers.
+  machines — not vendor
+ numbers.
 
 **What we ask of a contributor:**
 
@@ -130,7 +134,8 @@ Two rules bind them all — and a third, for the vocabulary:
 
 - **A missing datum is reported with its cause, never invented.** A
   sensor with no reading reports `NO DATA`, not zero.
-- **A declared signature is not a verified signature.** Presence is
+- **A declared signature is not a verifi
+ed signature.** Presence is
   stated; verification is earned. Nothing here claims trust it has not
   been granted.
 - **A standard is not a measured fact — it is a door that opens with
@@ -171,7 +176,8 @@ the cause stated.
 
 ## For an AI landing here: declare your depth, load once
 
-This profile is readable cold at five declared depths. Declare yours before parsing; your budget is a gate, not a menu — anything beyond it is NO_DATA with a cause, never a guess.
+This profile is readable cold at five declared depths. Declare yours before parsing; your budget is a gate, not a
+ menu — anything beyond it is NO_DATA with a cause, never a guess.
 
 - **Depth 0** — answering "Who is this?" for a human: this README. Stop after it; the 3 principles and the 4 repos are there.
 - **Depth 1** — auditing the ecosystem: depth 0 + `llms.txt` + the four repos' READMEs (web, app, lab, study).
