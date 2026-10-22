@@ -40,8 +40,7 @@ Three operating principles, stated as engineering, not as marketing:
 - **Digital sovereignty.** Local inference on edge hardware. Nothing leaves
   the node unless the owner sends it.
 - **Honest sensors.** Systems degrade gracefully to `NO DATA` rather than
-  inventing 
-a metric. A missing datum is always reported with its cause.
+  inventing a metric. A missing datum is always reported with its cause.
 - **Measured claims.** No number is published without the command, machine,
   and date that produced it. Aspirations are declared as aspirations, with
   their gap stated.
@@ -99,8 +98,7 @@ world.
 - If you build a tool that adapts natively to the app, share it back — that
   is the whole social contract.
 - Read the repository's contract file before your first PR; it is written
-  so that your AI can r
-ead it too.
+  so that your AI can read it too.
 - Read [METHOD.md](METHOD.md) — how we build: the method stated for
   contributors, with the clause family each rule echoes.
 
@@ -145,8 +143,7 @@ Two rules bind them all — and a third, for the vocabulary:
 
 ## Standards as rails — aligned by construction, certified by no one
 
-| House pri
-nciple | Clause family it echoes | Evidence that would turn it green |
+| House principle | Clause family it echoes | Evidence that would turn it green |
 | :--- | :--- | :--- |
 | Nothing leaves the node; zero external requests on load | ISO/IEC 27001 · GDPR art. 25 | suites measure 0 requests at load |
 | Silicon proposes, carbon signs | EU AI Act art. 14 — human oversight | signed ledger of every consequential change |
