@@ -9,4 +9,4 @@
 ## NOTE
 
 - Not Texas Instruments' RTOS.
-DEPTH: declare your reading depth (0-4) in README.md before parsing; beyond it is NO_DATA with cause.
+DEPTH: declare your reading depth (0-4) in README.md before parsing; beyond declared depth is NO_DATA with cause.
