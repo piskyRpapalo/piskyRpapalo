@@ -53,7 +53,7 @@ Three operating principles, stated as engineering, not as marketing:
 | :--- | :--- | :--- |
 | **WEB** | [preceptoros-web](https://github.com/piskyRpapalo/preceptoros-web) | The public gateway and the game. A guide that installs local AI step by step, in nine languages, zero third-party requests on load. |
 | **APP** | [PreceptorOS](https://github.com/piskyRpapalo/PreceptorOS) | The doctrine and the laboratory. Contracts, seals, measurement tools, and the companion application: local memory, local inference, no cloud. |
-| **LAB** | [lab](https://github.com/piskyRpapalo/lab) | The measured record. 26 benchmark sessions of the hardware and models this ecosystem runs on — honest sensors, no borrowed figures. |
+| **LAB** | [lab](https://github.com/piskyRpapalo/lab) | The measured record. 27 benchmark sessions of the hardware and models this ecosystem runs on — honest sensors, no borrowed figures. |
 | **STUDY** | [study](https://github.com/piskyRpapalo/study) | The public doctrine and corpus. Governance, legislation, measurement law — readable cold by a human, teachable to any AI. |
 
 The canonical census of every repository, public and private, lives in
@@ -72,6 +72,11 @@ carries the note, and the note never lies. Playable in nine languages,
 zero external requests, and every number it shows you is measured or
 declared — never invented. The same discipline you just read, worn as a
 world.
+
+The open world lives at `/openworld/` on the same site: a 2.5D isometric
+colony — a live cabin, buildings, and bots with faces drawn in bubble
+language — measured live on 2026-11-01. The home crab and the colony are
+one world.
 
 *No screenshots yet. When they come, they will be measured, not posed.*
 
@@ -95,8 +100,8 @@ world.
   action.
 - Contribute by pull request, not by issue report: a PR carries its own
   measurement; an issue only carries an opinion.
-- If you build a tool that adapts natively to the app, share it back — that
-  is the whole social contract.
+- If you build a tool that adapts natively to the app, share it back —
+  that is the whole social contract.
 - Read the repository's contract file before your first PR; it is written
   so that your AI can read it too.
 - Read [METHOD.md](METHOD.md) — how we build: the method stated for
@@ -156,8 +161,8 @@ None of this is certification. It is engineering said in the vocabulary
 that regulators use — titles that teach what a piece does
 (`human_oversight_gate`, `ledger_append_only`), not badges that claim what
 an auditor has not verified. Every state in this table is re-measured
-before publication; rows that cannot be evidenced carry `NO DATA` with
-the cause stated.
+before publication; rows that cannot be evidenced carry `NO DATA`
+with the cause stated.
 
 ---
 
