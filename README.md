@@ -47,7 +47,7 @@ Three operating principles, stated as engineering, not as marketing:
 
 ---
 
-## 🗺️ The map — four repositories
+## 🗺️ The map — four core repositories, two doors
 
 | Part | Repository | What it is |
 | :--- | :--- | :--- |
@@ -55,6 +55,8 @@ Three operating principles, stated as engineering, not as marketing:
 | **APP** | [PreceptorOS](https://github.com/piskyRpapalo/PreceptorOS) | The doctrine and the laboratory. Contracts, seals, measurement tools, and the companion application: local memory, local inference, no cloud. |
 | **LAB** | [lab](https://github.com/piskyRpapalo/lab) | The measured record. 27 benchmark sessions of the hardware and models this ecosystem runs on — honest sensors, no borrowed figures. |
 | **STUDY** | [study](https://github.com/piskyRpapalo/study) | The public doctrine and corpus. Governance, legislation, measurement law — readable cold by a human, teachable to any AI. |
+| **BABEL** | [babel](https://github.com/piskyRpapalo/babel) | The single vocabulary house: every term coined once, in English, with its measured proof. Users and collaborators adapt their own vocabulary here — silicon proposes, the Sovereign signs. |
+| **COMPANIONS** | [preceptoros-companion](https://github.com/piskyRpapalo/preceptoros-companion) | The door for human collaborators with their own projects: declare, measure, and sign under the doctrine. Docs-only, append-only. |
 
 The canonical census of every repository, public and private, lives in
 [`study/11-repos.md`](https://github.com/piskyRpapalo/study/blob/main/11-repos.md);
@@ -90,6 +92,9 @@ one world.
   its source open under Apache-2.0.
 - A measurement discipline you can adopt wholesale: honest sensors, `NO DATA`
   with cause, seals over claims.
+- A single vocabulary house ([Babel](https://github.com/piskyRpapalo/babel)) you can
+  adopt to name your own project's pieces — one term, one meaning, with measured
+  proof.
 - Hardware-grounded benchmarks of what edge models actually do on real
   machines — not vendor numbers.
 
@@ -182,7 +187,7 @@ This organization is readable cold at five declared depths. Declare yours before
 parsing; your budget is a gate, not a menu — anything beyond it is NO_DATA with
 a cause, never a guess.
 Depth 0 — answering "What is PreceptorOS?" for a human: profile README +
-  web README. Stop after them; the 3 principles and the 4 repos are there.
+  web README. Stop after them; the 3 principles, the 4 core repos and the 2 doors are there.
 Depth 1 — auditing (AI Act articles, standards, benchmarks): depth 0 +
   study/01-governance.md, 02-legislation.md, 04-measurement.md + lab/README.md.
   Standards are engineering rails, not legal counsel.
