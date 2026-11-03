@@ -49,6 +49,8 @@ Three operating principles, stated as engineering, not as marketing:
 
 ## 🗺️ The map — four core repositories, two doors
 
+The public side of this GitHub serves two roles at once: a **harness** — where the doctrine runs, gets measured, and breaks in the open — and a **portfolio** — what a visitor reads. The private side is the house's own table (la Mesa), where the work is served. Decreed by the Sovereign, 2026-11-03.
+
 | Part | Repository | What it is |
 | :--- | :--- | :--- |
 | **WEB** | [preceptoros-web](https://github.com/piskyRpapalo/preceptoros-web) | The public gateway and the game. A guide that installs local AI step by step, in nine languages, zero third-party requests on load. |
