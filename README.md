@@ -53,7 +53,7 @@ The public side of this GitHub serves two roles at once: a **harness** — where
 
 | Part | Repository | What it is |
 | :--- | :--- | :--- |
-| **WEB** | [preceptoros-web](https://github.com/piskyRpapalo/preceptoros-web) | The public gateway and the living world. A guide that installs local AI step by step, in nine languages, zero third-party requests on load. |
+| **WEB** | [preceptoros-web](https://github.com/piskyRpapalo/preceptoros-web) | The public gateway and the living world. A guide that installs local AI step by step; the public MVP is English, with zero third-party requests on load. |
 | **APP** | [PreceptorOS](https://github.com/piskyRpapalo/PreceptorOS) | The doctrine and the laboratory. Contracts, seals, measurement tools, and the companion application: local memory, local inference, no cloud. |
 | **LAB** | [lab](https://github.com/piskyRpapalo/lab) | The measured record. 27 benchmark sessions of the hardware and models this ecosystem runs on — honest sensors, no borrowed figures. |
 | **STUDY** | [study](https://github.com/piskyRpapalo/study) | The public doctrine and corpus. Governance, legislation, measurement law — readable cold by a human, teachable to any AI. |
