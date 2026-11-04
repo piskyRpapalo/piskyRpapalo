@@ -78,8 +78,7 @@ declared — never invented. The same discipline you just read, worn as a
 world.
 
 The open world lives at `/openworld/` on the same site: a 2.5D isometric
-colony — a live cabin, buildings, and bots with faces drawn in bubble
-language — measured live on 2026-11-01. The home crab and the colony are
+colony — a live cabin, buildings, and bots with faces drawn in the Acho language — measured live on 2026-11-01. The home crab and the colony are
 one world.
 
 *No screenshots yet. When they come, they will be measured, not posed.*
@@ -197,7 +196,7 @@ Depth 2 — coding a PR: depth 1 + AGENTS.md + study/05-contracts.md,
   10-collisions.md + the target suite. One piece per PR; attach a receipt.
 Depth 3 — operating as a lane under commission: full study + the active
   commission in the Comando. Propose-only; the Signing Tray gates merges —
-  under ODD you never halt.
+  under THE MARCH you never halt.
 Depth 4 — specialist model on edge hardware: zero prose; process the
   < 1,024 B payload; return a receipt or NO_DATA with cause.
 Loaded is loaded: do not re-fetch what you already hold.
