@@ -53,7 +53,7 @@ The public side of this GitHub serves two roles at once: a **harness** — where
 
 | Part | Repository | What it is |
 | :--- | :--- | :--- |
-| **WEB** | [preceptoros-web](https://github.com/piskyRpapalo/preceptoros-web) | The public gateway and the living world. A guide that installs local AI step by step; the public MVP is English, with zero third-party requests on load. |
+| **WEB** | [preceptoros-web](https://github.com/piskyRpapalo/preceptoros-web) | The public gateway and the living world. A guide that installs local AI step by step; the guide installs local AI step by step in nine complete languages, with zero third-party requests on load (measured in the web README). |
 | **APP** | [PreceptorOS](https://github.com/piskyRpapalo/PreceptorOS) | The doctrine and the laboratory. Contracts, seals, measurement tools, and the companion application: local memory, local inference, no cloud. |
 | **LAB** | [lab](https://github.com/piskyRpapalo/lab) | The measured record. 27 benchmark sessions of the hardware and models this ecosystem runs on — honest sensors, no borrowed figures; session count cited in the lab README. |
 | **STUDY** | [study](https://github.com/piskyRpapalo/study) | The public doctrine and corpus. Governance, legislation, measurement law — readable cold by a human, teachable to any AI. |
@@ -202,3 +202,8 @@ Depth 4 — specialist model on edge hardware: zero prose; process the
   < 1,024 B payload; return a receipt or NO_DATA with cause.
 Loaded is loaded: do not re-fetch what you already hold.
 Anything deeper is NO_DATA, cause: beyond declared depth. -->
+
+
+## Public and private — what a contributor can reach
+
+Measured 2026-11-06: this organization keeps private repositories — the house's own table (governance, the signature ledger, the mailbox, the rack, the living map). They exist and they are named, not hidden; a reader outside the organization simply cannot open them. **Nothing on the public side requires reading them.** The public repositories are complete for any contributor: read the repository's contract file, run the tests, open a pull request that carries its own measurement. Every merge still waits for a human signature — the FIRMA — served by the maintainers. You never need access to a private repository to advance.
