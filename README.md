@@ -53,7 +53,7 @@ The public side of this GitHub serves two roles at once: a **harness** — where
 
 | Part | Repository | What it is |
 | :--- | :--- | :--- |
-| **WEB** | [preceptoros-web](https://github.com/piskyRpapalo/preceptoros-web) | The public gateway and the living world. A guide that installs local AI step by step; the guide installs local AI step by step in nine complete languages, with zero third-party requests on load (measured in the web README). |
+| **WEB** | [preceptoros-web](https://github.com/piskyRpapalo/preceptoros-web) | The public gateway and the living world. A guide that installs local AI step by step, with zero undeclared requests (measured in the web README). |
 | **APP** | [PreceptorOS](https://github.com/piskyRpapalo/PreceptorOS) | The doctrine and the laboratory. Contracts, seals, measurement tools, and the companion application: local memory, local inference, no cloud. |
 | **LAB** | [lab](https://github.com/piskyRpapalo/lab) | The measured record. 27 benchmark sessions of the hardware and models this ecosystem runs on — honest sensors, no borrowed figures; session count cited in the lab README. |
 | **STUDY** | [study](https://github.com/piskyRpapalo/study) | The public doctrine and corpus. Governance, legislation, measurement law — readable cold by a human, teachable to any AI. |
@@ -97,8 +97,8 @@ a world.
 
 **What we ask of a contributor:**
 
-- Respect the ceilings: pure standard library where possible, zero external
-  requests on load, no telemetry, human signature before any consequential
+- Respect the ceilings: pure standard library where possible, zero undeclared
+  requests, no telemetry, human signature before any consequential
   action.
 - Contribute by pull request, not by issue report: a PR carries its own
   measurement; an issue only carries an opinion.
@@ -152,7 +152,7 @@ Two rules bind them all — and a third, for the vocabulary:
 
 | House principle | Clause family it echoes | Evidence that would turn it green |
 | :--- | :--- | :--- |
-| Nothing leaves the node; zero external requests on load | ISO/IEC 27001 · GDPR art. 25 | suites measure 0 requests at load |
+| Nothing leaves the node; zero undeclared requests | ISO/IEC 27001 · GDPR art. 25 | suites measure 0 undeclared requests at load |
 | Silicon proposes, carbon signs | EU AI Act art. 14 — human oversight | signed ledger of every consequential change |
 | The PR carries its own measurement | EU AI Act art. 12 — record-keeping | a receipt in every pull request |
 | Degradation is data, not a bug | EN 301 549 | the same vector legible by eye, ear, and machine |
