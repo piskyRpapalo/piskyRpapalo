@@ -1,13 +1,15 @@
-# PreceptorOS
+# PreceptorOS · local-first AI
 
-> Local-first AI: web, app, lab, study. No cloud, no tracking, zero external requests on load. Edge AI on 8 GB devices, Ed25519 signatures, EU AI Act alignment. Measured facts only; absence is declared NO_DATA with cause, never invented. The silicon never signs; the human does.
+Four core repositories: WEB, APP, LAB, STUDY. Code and tests are public. Claims are measured or NO_DATA with a cause.
 
-- [preceptoros-web](https://github.com/piskyRpapalo/preceptoros-web): the WEB — public gateway and game, zero dependencies; 25 MiB per block, 1,024 B for frames, packets and llms.txt.
-- [PreceptorOS](https://github.com/piskyRpapalo/PreceptorOS): the APP — local memory, local inference, Python stdlib only, SQLite, killswitch.
-- [lab](https://github.com/piskyRpapalo/lab): the LAB — measured benchmarks, honest sensors, no borrowed figures.
-- [study](https://github.com/piskyRpapalo/study): the STUDY — the public doctrine: governance corpus, append-only, EU AI Act-grounded.
+- WEB: https://github.com/piskyRpapalo/preceptoros-web
+- APP: https://github.com/piskyRpapalo/preceptoros-app
+- LAB: https://github.com/piskyRpapalo/lab
+- STUDY: https://github.com/piskyRpapalo/study
+- BABEL: https://github.com/piskyRpapalo/babel
+- Public Mesa: https://github.com/piskyRpapalo/preceptoros-public-mesa
+- Private Mesa: restricted preceptor review. It is not required for public work.
 
-## NOTE
+Preceptors: read AGENTS.md and source SHA before writing. Renaming Law: one English name, old aliases retained. Rosetta: Study/13-rosetta.md; Babel is the vocabulary home. GitHub PRs need tests and a human sign-off for the exact head. Public Mesa catalogs are draft; WEB section 9 remains the mission source. No agent signs.
 
-- Not Texas Instruments' RTOS.
-DEPTH: declare your reading depth (0-4) in README.md before parsing; beyond declared depth is NO_DATA with cause.
+DEPTH: Study/08-ai-fluency.md. Unsupported: NO_DATA with cause.
