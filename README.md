@@ -9,7 +9,8 @@
   <img src="https://komarev.com/ghpvc/?username=piskyRpapalo&label=Profile+Views&color=6d28d9&style=flat-square" alt="Profile Views" />
   <strong>📍 Lisbon, Portugal</strong> ·
   <a href="https://linkedin.com/in/davidpecerocaballero">LinkedIn</a> ·
-  <a href="https://preceptoros.org">preceptoros.org</a>
+  <a href="https://preceptoros.org">preceptoros.org</a> ·
+  <a href="https://github.com/piskyRpapalo?tab=repositories">GitHub repositories</a>
 </p>
 
 ---
@@ -26,8 +27,8 @@
 
 This profile is written for two readers at once: a human visitor, and the AI
 you may have brought with you. Both should leave knowing the same three
-things: what exists here, what it offers you as ground to build on, and what
-it asks of you if you contribute.
+things: what exists here, what has been built and tested, and how to
+contribute to the work.
 
 I build local-first AI systems that run on hardware their owner controls. My
 work bridges regulated enterprise requirements (zero-trust, data governance,
@@ -49,12 +50,12 @@ Three operating principles, stated as engineering, not as marketing:
 
 ## 🗺️ The map — four core repositories, two doors
 
-The public side of this GitHub serves two roles at once: a **harness** — where the doctrine runs, gets measured, and breaks in the open — and a **portfolio** — what a visitor reads. The private side is the house's own table (la Mesa), where the work is served. Decreed by the Sovereign, 2026-11-03.
+The public GitHub repositories expose code, tests, documentation and measured limitations so others can inspect, reuse and improve them. The private Mesa coordinates proposals and review; publication and human authorization remain separate.
 
 | Part | Repository | What it is |
 | :--- | :--- | :--- |
 | **WEB** | [preceptoros-web](https://github.com/piskyRpapalo/preceptoros-web) | The public gateway and the living world. A guide that installs local AI step by step, with zero undeclared requests (measured in the web README). |
-| **APP** | [PreceptorOS](https://github.com/piskyRpapalo/PreceptorOS) | The doctrine and the laboratory. Contracts, seals, measurement tools, and the companion application: local memory, local inference, no cloud. |
+| **APP** | [preceptoros-app](https://github.com/piskyRpapalo/preceptoros-app) | The local-first companion, with nine-panel mini-HTML, on-device memory and interfaces to user-controlled models; measured functions and pending integrations are documented in its repository. |
 | **LAB** | [lab](https://github.com/piskyRpapalo/lab) | The measured record. 27 benchmark sessions of the hardware and models this ecosystem runs on — honest sensors, no borrowed figures; session count cited in the lab README. |
 | **STUDY** | [study](https://github.com/piskyRpapalo/study) | The public doctrine and corpus. Governance, legislation, measurement law — readable cold by a human, teachable to any AI. |
 | **BABEL** | [babel](https://github.com/piskyRpapalo/babel) | The single vocabulary house: every term coined once, in English, with its measured proof. Users and collaborators adapt their own vocabulary here — silicon proposes, the Sovereign signs. |
@@ -81,12 +82,12 @@ a world.
 
 ---
 
-## 🤝 What we offer — and what we ask
+## 🤝 What we've built — and how to collaborate
 
-**Ground you can build on:**
+**Code and methods you can inspect and build on:**
 
-- A working, installable local-AI pipeline (web guides + companion app), with
-  its source open under Apache-2.0.
+- Source for local-AI setup guides and a companion app. Each repository describes
+  what is implemented, what has been tested, and what remains `NO DATA`.
 - A measurement discipline you can adopt wholesale: honest sensors, `NO DATA`
   with cause, seals over claims.
 - A single vocabulary house ([Babel](https://github.com/piskyRpapalo/babel)) you can
@@ -95,13 +96,14 @@ a world.
 - Hardware-grounded benchmarks of what edge models actually do on real
   machines — not vendor numbers.
 
-**What we ask of a contributor:**
+**How to collaborate on GitHub:**
 
 - Respect the ceilings: pure standard library where possible, zero undeclared
   requests, no telemetry, human signature before any consequential
   action.
-- Contribute by pull request, not by issue report: a PR carries its own
-  measurement; an issue only carries an opinion.
+- Share ideas, questions and reproducible defects through GitHub Issues.
+  Propose bounded code or documentation changes through GitHub Pull Requests;
+  include evidence and follow the human-review contract.
 - If you build a tool that adapts natively to the app, share it back —
   that is the whole social contract.
 - Read the repository's contract file before your first PR; it is written
@@ -109,9 +111,9 @@ a world.
 - Read [METHOD.md](METHOD.md) — how we build: the method stated for
   contributors, with the clause family each rule echoes.
 
-**For the lawyer reading this with your AI assistant:** the complete list of
-what this ecosystem offers, under which licenses, and what it requests from
-contributors lives in each repository's README and contract file —
+**For the lawyer reading this with your AI assistant:** the documented
+components, their licenses and the collaboration rules live in the relevant
+repository's README and contract file —
 `PRECEPTOR.md` in the APP repository is the canonical entry point. No
 compliance claims are made beyond what each repository measures and declares,
 including its declared gaps.
