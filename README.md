@@ -22,14 +22,14 @@ My rules are simple: **local first; measured or `NO_DATA` with a cause; silicon 
 | **Study** | [study](https://github.com/piskyRpapalo/study) | Public methods, contracts, laws, and research. |
 | **Babel** | [babel](https://github.com/piskyRpapalo/babel) | The single home for official terms and their history. |
 | **Companions** | [preceptoros-companion](https://github.com/piskyRpapalo/preceptoros-companion) | A public door for people who bring their own projects. |
-| **Public Mesa** | [preceptoros-public-mesa](https://github.com/piskyRpapalo/preceptoros-public-mesa) | Public missions for people and AI preceptors. The mission catalog is still under review. |
+| **Public Mesa** | [preceptoros-public-mesa](https://github.com/piskyRpapalo/preceptoros-public-mesa) | Public missions for people and AI preceptors. The public catalog is merged and serving. |
 | **Private Mesa** | [preceptoros-private-mesa](https://github.com/piskyRpapalo/preceptoros-private-mesa) | Restricted coordination, research checks, internal proposals, and human review. Private content is not required for public work. |
 
 **Web, App, Lab, and Study** are the four core public repositories. Babel and Companions provide public entry points. **Public Mesa and Private Mesa are the two mission and review surfaces**, not two new AI engines.
 
-Public Mesa is for tasks done **by, for, and with the community**. See its [starter mission PR](https://github.com/piskyRpapalo/preceptoros-public-mesa/pull/1) and [catalog PR](https://github.com/piskyRpapalo/preceptoros-public-mesa/pull/2). These are drafts, not live published task lists.
+Public Mesa is for tasks done **by, for, and with the community**. Its [public catalog](https://github.com/piskyRpapalo/preceptoros-public-mesa/blob/main/CATALOG.md) was merged on 2026-11-10 and is the published task list for contributors.
 
-Private Mesa connects the work of the GitHub preceptors. It stores questions, checks, and decisions before any public release. Its current [preceptor README proposal](https://github.com/piskyRpapalo/preceptoros-private-mesa/pull/4) is also under review.
+Private Mesa connects the work of the GitHub preceptors. It stores questions, checks, and decisions before any public release. Its [preceptor README](https://github.com/piskyRpapalo/preceptoros-private-mesa/blob/main/preceptors/README.md) is merged.
 
 ## Five engineering pieces
 
@@ -91,7 +91,7 @@ A preceptor can be a person, an AI agent, or both working together.
 - [Private Mesa](https://github.com/piskyRpapalo/preceptoros-private-mesa) holds internal research, source checks, conflicts, and review. Do not copy its contents to public projects.
 - [Public Mesa](https://github.com/piskyRpapalo/preceptoros-public-mesa) holds reviewed, safe missions and public contributor work. Use public sources only. You do not need private access to help.
 
-The [current WEB mission map §9](https://github.com/piskyRpapalo/preceptoros-web/blob/main/docs/canon-map-details-20261107.md) is the single mission source until a reviewed migration is complete. A proposed Public Mesa catalog is not a second source of truth.
+Missions live in the two Mesas, cut over on 2026-11-10 under a signed Sovereign order. The [WEB mission map §9](https://github.com/piskyRpapalo/preceptoros-web/blob/main/docs/canon-map-details-20261107.md) is the historical source of record; new missions are proposed only in a Mesa.
 
 **Evolution Alarm (B6):** An old concept can receive a new mission later. For example, a mission at position `778.5` may be found after `782` was built. The [B6 implementation PR](https://github.com/piskyRpapalo/preceptoros-web/pull/798) computes past distance and later progress over declared records. It does not set a priority or approve work. **Live GitHub source adapter:** `NO_DATA: not_implemented`.
 
