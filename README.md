@@ -31,6 +31,8 @@ Public Mesa is for tasks done **by, for, and with the community**. Its [public c
 
 Private Mesa connects the work of the GitHub preceptors. It stores questions, checks, and decisions before any public release. Its [preceptor README](https://github.com/piskyRpapalo/preceptoros-private-mesa/blob/main/preceptors/README.md) is merged.
 
+## [Benchmarks](https://github.com/piskyRpapalo/lab/blob/main/benchmarks/README.md) · Pruebas de rendimiento · Tests de performance · Testes de desempenho · Benchmark delle prestazioni · Leistungsbenchmarks · Тесты производительности · Δοκιμές επιδόσεων · اختبارات قياس الأداء · 性能基准测试 · 성능 벤치마크
+
 ## Five engineering pieces
 
 Each example links to code and, where available, a test. These are **working source implementations**, not a claim of live integration.
