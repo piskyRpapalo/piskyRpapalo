@@ -4,6 +4,12 @@
 
 [GitHub repositories](https://github.com/piskyRpapalo?tab=repositories) · [PreceptorOS Web](https://www.preceptoros.org/) · [Community missions](https://github.com/piskyRpapalo/preceptoros-public-mesa) · [LinkedIn](https://www.linkedin.com/in/david-pecero-caballero/)
 
+## Start with the APP
+
+PreceptorOS is an open-source, local-first AI project. If you are new here, start with the [APP and installation guide](https://www.preceptoros.org/get-the-app/). Check the available release and its documented limitations before installing. The [WEB](https://www.preceptoros.org/) is the public window into the project; the [LAB](https://github.com/piskyRpapalo/lab) publishes reproducible experiments and evidence.
+
+My seven years of experience in multilingual Trust & Safety inform the project's emphasis on privacy, human oversight and clear evidence. That experience is a reason for the design choices, not a certification of the software.
+
 ## What I build
 
 I design AI tools that run on hardware their owner controls. I focus on the logic around a model. I work on evidence search, exact decisions, safe tool use, tests, and records of failure.
@@ -16,8 +22,8 @@ My rules are simple: **local first; measured or `NO_DATA` with a cause; silicon 
 
 | Part | GitHub | What is built or in review |
 |---|---|---|
+| **App** | [preceptoros-app](https://github.com/piskyRpapalo/preceptoros-app) | Local companion; six-panel MVP design baseline (19 November 2026), memory, model interfaces and evidence checks. The baseline is not proof of a released build. |
 | **Web** | [preceptoros-web](https://github.com/piskyRpapalo/preceptoros-web) | Public entry point, local AI guides, OpenWorld, and small testable JavaScript cores. |
-| **App** | [preceptoros-app](https://github.com/piskyRpapalo/preceptoros-app) | Local companion with nine panels, memory, model interfaces, and evidence checks. |
 | **Lab** | [lab](https://github.com/piskyRpapalo/lab) | Reproducible tests, local model studies, search code, and measured records. |
 | **Study** | [study](https://github.com/piskyRpapalo/study) | Public methods, contracts, laws, and research. |
 | **Babel** | [babel](https://github.com/piskyRpapalo/babel) | The single home for official terms and their history. |
@@ -107,4 +113,4 @@ Start at [Public Mesa](https://github.com/piskyRpapalo/preceptoros-public-mesa).
 
 ---
 
-**Publication note:** Statements in this profile describe inspected source code and available public records as of 2026-11-10. They do not certify legal compliance or production uptime. Public and private data remain separate.
+**Publication note:** Engineering examples below the introduction retain their 2026-11-10 evidence cut; the APP-first introduction and MVP design reference were updated on 2026-11-24. They do not certify legal compliance or production uptime. Public and private data remain separate.
